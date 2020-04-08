@@ -1,0 +1,336 @@
+html{
+    box-sizing: border-box;
+    margin: 53px 160px 0px;
+    padding: 0;
+    background-color: #edf2c5;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    margin: px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 271px;
+    height: 42px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+    margin:0px 0px 0px 0px;
+}
+
+.img_logo1{
+    width: 25px;
+    height: 25px;
+    margin:0px 0px 0px 739px;
+}
+.img_logo2{
+    width: 25px;
+    height: 25px;
+    margin:0px 0px 0px 10px;
+}
+
+.line{
+    width: 1px;
+    height: 25px;
+    background-color: #778A50;
+    margin-bottom: 17px;
+    margin: 0 0 0 10px;
+}
+
+.btn_logo_box{
+    width: 60px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #edf2c5;
+    border: solid 1px #778a50;
+    margin-left: 10px;
+    margin-bottom: 17px;
+}
+
+.btn_logo{
+    width: 43px;
+    height: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body
+{
+    width: 1264px;
+    height: 880px;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 1260px;
+    height: 880px;
+    background-attachment: #EDF2C5;
+}
+
+.option_nav_box{
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    display:flex;
+    align-items: baseline;
+}
+
+.option_home{
+    width: 69px;
+    height: 12px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin: 0px 0 0px 30px;
+}
+
+.option_about_us{
+    width: 80px;
+    height: 12px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left: 60px;
+}
+
+.option_vegetable{
+    width: 99px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left: 60px;
+}
+
+.option_online{
+    width: 55px;
+    height: 12px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left: 60px;
+}
+
+.option_contact{
+    width: 69px;
+    height: 12px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left: 60px;
+}
+
+.img_main{
+    width: 940px;
+    height:　448px;
+    margin-top: 20px;
+}
+
+.secArea{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.secArea_veg{
+    display: flex;
+    flex-direction: column;
+}
+
+.body_vegetables_box{
+    width: 445px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+}
+
+.vegetables{
+    width: 99px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin:0px 0 0px 30px;
+}
+
+.img_veg1{
+    width: 140px;
+    height: 140px;
+    margin-top: 15px;
+}
+
+.img_veg2{
+    width: 140px;
+    height: 140px;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+.img_veg3{
+    width: 140px;
+    height: 140px;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+.secArea_con{
+    margin-left: 50px;
+}
+
+.body_contact_box{
+    width: 445px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin-top: 0;
+}
+
+.contact{
+    width: 69px;
+    height: 12px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left: 30px;
+}
+
+.contact_text{
+    width: 410px;
+    height: 43px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+    margin:16px 20px 16px 15px;
+}
+
+.body_box_contact_text{
+    width: 445px;
+    height: 140px;
+    border-radius: 3px;
+    background-color: #f7fbda;
+}
+
+.body_box_contact_text1{
+    width: 445px;
+    height: 75px;
+}
+
+.body_box_contact_text2{
+    width: 445px;
+    height: 64px;
+}
+
+.contact_info{
+    width: 193px;
+    height: 31px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+    margin:16px 237px 17px 15px;
+}
+
+.footer_box{
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_text{
+    width: 302px;
+    height: 11px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+}
